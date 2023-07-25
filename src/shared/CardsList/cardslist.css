@@ -1,0 +1,40 @@
+@media all and (min-width: 1024px) {
+  .cardsList {
+    padding: 40px 0;
+  }
+}
+
+.emptyMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingStyle {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--black);
+}
+
+.button {
+  background-color: var(--black);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--white);
+  border-radius: 2px;
+  padding: 5px;
+}

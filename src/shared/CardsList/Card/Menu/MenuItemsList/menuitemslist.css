@@ -1,0 +1,39 @@
+.menuItemsList {
+  padding: 0 20px;
+}
+
+.menuItem {
+  padding: 12px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid var(--greyEC);
+}
+
+.menuItem:last-child {
+  border: 0;
+}
+
+.menuItem>svg+span {
+  margin-left: 7px;
+}
+
+.menuLink {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .menuItem:nth-child(1) {
+    display: none;
+  }
+
+  .menuItem:nth-child(2) {
+    display: none;
+  }
+
+  .menuItem:nth-child(4) {
+    display: none;
+  }
+}
